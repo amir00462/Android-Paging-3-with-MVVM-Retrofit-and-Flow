@@ -35,4 +35,5 @@ class PlayersDataSource(private val playersApi: PlayersApi) :
     override fun getRefreshKey(state: PagingState<Int, Player>): Int? {
         return state.anchorPosition
     }
+
 }

@@ -10,3 +10,4 @@ data class RemoteKeys(
     val nextKey: Int?,
     val isEndReached: Boolean
 )
+
